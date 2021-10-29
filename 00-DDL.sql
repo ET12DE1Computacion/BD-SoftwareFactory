@@ -1,7 +1,7 @@
 DROP DATABASE IF EXISTS SoftwareFactory;
-CREATE DATABASE SoftwareFactory;
+CREATE DATABASE SoftwareFactory CHARACTER SET UTF8;
 USE SoftwareFactory;
-
+SELECT 'Creado Tablas' AS 'Estado';
 CREATE TABLE Cliente(
 	cuit INT NOT NULL,
 	razonSocial VARCHAR(50),

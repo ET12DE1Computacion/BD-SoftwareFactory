@@ -1,4 +1,5 @@
 USE SoftwareFactory;
+SELECT 'Vaciando Tablas' AS 'Estado';
 SET FOREIGN_KEY_CHECKS=0;
 	TRUNCATE TABLE Tarea;
 	TRUNCATE TABLE Requerimiento;
@@ -8,7 +9,8 @@ SET FOREIGN_KEY_CHECKS=0;
 	TRUNCATE TABLE Empleado;
 	TRUNCATE TABLE Cliente;
 SET FOREIGN_KEY_CHECKS=1;
-SET NAMES 'latin1';
+SET NAMES utf8;
+SELECT 'Completando filas' AS 'Estado';
 START TRANSACTION;
 
     INSERT INTO Cliente (cuit, razonSocial)
