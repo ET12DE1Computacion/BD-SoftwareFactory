@@ -16,7 +16,8 @@ START TRANSACTION;
     INSERT INTO Cliente (cuit, razonSocial)
         VALUES          (100, 'Unicornio Azul'),
                         (200, 'Yellow Monkey'),
-                        (300, 'Tartaruga Vermelha');
+                        (300, 'Tartaruga Vermelha'),
+                        (400, 'Hyacinthinum Draconis');
 
     INSERT INTO Empleado    (cuil, nombre, apellido, contratacion)
         VALUES              (1000, 'Lucas', 'Medina', '2015-08-25'),
@@ -25,7 +26,10 @@ START TRANSACTION;
                             (1300, 'Arturo', 'Cruz', '2016-01-15'),
                             (1400, 'Alexis', 'Noguera', '2017-03-22'),
                             (1500, 'Leonardo', 'Farfan', '2018-06-15'),
-                            (1600, 'Maria Jose', 'Candia', '2018-06-15');
+                            (1600, 'Maria Jose', 'Candia', '2018-06-15'),
+                            (1700, 'Axel', 'Martinez', '2022-09-30'),
+                            (1800, 'Francisco', 'Heffner', '2022-09-30'),
+                            (1900, 'Noelia', 'Almaraz', '2022-09-30');
 
     INSERT INTO Tecnologia  (idTecnologia, tecnologia, costoBase)
         VALUES              (1,'C#', 15000),
@@ -34,7 +38,8 @@ START TRANSACTION;
                             (4, 'HTML', 8000),
                             (5, 'GIT', 5000),
                             (6, 'Desarrollador MySQL', 8000),
-                            (7, 'DBA MySQL', 14000);
+                            (7, 'DBA MySQL', 14000),
+                            (8, 'Python', 14000);
 
     INSERT INTO Experiencia (cuil, idTecnologia, calificacion)
         VALUES              (1000, 1, 2),
@@ -63,12 +68,22 @@ START TRANSACTION;
                             (1600, 4, 8),
                             (1600, 5, 5),
                             (1600, 6, 6),
-                            (1600, 7, 6);
+                            (1600, 7, 6),
+                            (1700, 5, 4),
+                            (1700, 6, 9),
+                            (1700, 8, 8),
+                            (1800, 5, 4),
+                            (1800, 6, 8),
+                            (1800, 8, 9),
+                            (1900, 5, 4),
+                            (1900, 6, 8),
+                            (1900, 8, 8);
 
     INSERT INTO Proyecto    (idProyecto, cuit, descripcion, presupuesto, inicio, fin)
         VALUES              (10, 100, 'Canino APP', 150000, '2020-01-01', '2021-02-15'),
                             (20, 200, 'StockAr', 250000, '2020-01-01', '2021-01-01'),
-                            (30, 300, 'Centro Medico', 450000, '2021-09-01', NULL);
+                            (30, 300, 'Centro Medico', 450000, '2021-09-01', NULL),
+                            (40,400,'DnD Helper',200000,'2022-09-30',NULL);
 
     INSERT INTO Requerimiento   (idRequerimiento, idProyecto, idTecnologia, descripcion, complejidad)
         VALUES                  (1, 10, 1, 'Programación BackEnd', 6),
