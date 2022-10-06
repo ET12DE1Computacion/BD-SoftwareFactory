@@ -29,7 +29,8 @@ START TRANSACTION;
                             (1600, 'Maria Jose', 'Candia', '2018-06-15'),
                             (1700, 'Axel', 'Martinez', '2022-09-30'),
                             (1800, 'Francisco', 'Heffner', '2022-09-30'),
-                            (1900, 'Noelia', 'Almaraz', '2022-09-30');
+                            (1900, 'Noelia', 'Almaraz', '2022-09-30')
+                            (2000, 'Hernan', 'Vazquez', '2022-10-06');
 
     INSERT INTO Tecnologia  (idTecnologia, tecnologia, costoBase)
         VALUES              (1,'C#', 15000),
@@ -77,13 +78,16 @@ START TRANSACTION;
                             (1800, 8, 9),
                             (1900, 5, 4),
                             (1900, 6, 8),
-                            (1900, 8, 8);
+                            (1900, 8, 8),
+                            (2000, 5, 4),
+                            (2000, 6, 8),
+                            (2000, 8, 8;
 
     INSERT INTO Proyecto    (idProyecto, cuit, descripcion, presupuesto, inicio, fin)
         VALUES              (10, 100, 'Canino APP', 150000, '2020-01-01', '2021-02-15'),
                             (20, 200, 'StockAr', 250000, '2020-01-01', '2021-01-01'),
                             (30, 300, 'Centro Medico', 450000, '2021-09-01', NULL),
-                            (40,400,'DnD Helper',200000,'2022-09-30',NULL);
+                            (40, 400, 'DnD Helper', 200000,'2022-09-30',NULL);
 
     INSERT INTO Requerimiento   (idRequerimiento, idProyecto, idTecnologia, descripcion, complejidad)
         VALUES                  (1, 10, 1, 'Programación BackEnd', 6),
@@ -105,7 +109,11 @@ START TRANSACTION;
                                 (17, 30, 3, 'Microservicio Persistencia', 4),
                                 (18, 30, 5, 'Versionamiento', 6),
                                 (19, 30, 6, 'Optimización Persistencia', 4),
-                                (20, 30, 7, 'Implementación DB y Administración', 6);
+                                (20, 30, 7, 'Implementación DB y Administración', 6),
+                                (21, 40, 1, 'Programación BackEnd', 6),
+                                (22, 40, 4, 'Programación FrontEnd', 4),
+                                (23, 40, 6, 'Persistencia', 5),
+                                (24, 40, 5, 'Versionamiento', 4);
 
     INSERT INTO Tarea   (idRequerimiento, cuil, inicio, fin)
             VALUES      (1, 1200, '2020-01-01', '2020-04-01'),
@@ -121,6 +129,10 @@ START TRANSACTION;
                         (10, 1100, '2020-01-01', '2021-01-01'),
                         (10, 1400, '2020-01-01', '2021-01-01'),
                         (11, 1000, '2020-01-01', '2021-01-01'),
-                        (11, 1300, '2020-01-01', '2021-01-01');
+                        (11, 1300, '2020-01-01', '2021-01-01'),
+                        (21, 1900, '2022-01-01', '2023-01-01'),
+                        (22, 1800, '2022-01-01', '2023-01-01'),
+                        (23, 2000, '2022-01-01', '2023-01-01'),
+                        (24, 1700, '2022-01-01', '2023-01-01'),;
 
 COMMIT;
