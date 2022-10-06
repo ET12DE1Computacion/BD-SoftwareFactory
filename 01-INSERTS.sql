@@ -29,7 +29,7 @@ START TRANSACTION;
                             (1600, 'Maria Jose', 'Candia', '2018-06-15'),
                             (1700, 'Axel', 'Martinez', '2022-09-30'),
                             (1800, 'Francisco', 'Heffner', '2022-09-30'),
-                            (1900, 'Noelia', 'Almaraz', '2022-09-30')
+                            (1900, 'Noelia', 'Almaraz', '2022-09-30'),
                             (2000, 'Hernan', 'Vazquez', '2022-10-06');
 
     INSERT INTO Tecnologia  (idTecnologia, tecnologia, costoBase)
@@ -81,7 +81,7 @@ START TRANSACTION;
                             (1900, 8, 8),
                             (2000, 5, 4),
                             (2000, 6, 8),
-                            (2000, 8, 8;
+                            (2000, 8, 8);
 
     INSERT INTO Proyecto    (idProyecto, cuit, descripcion, presupuesto, inicio, fin)
         VALUES              (10, 100, 'Canino APP', 150000, '2020-01-01', '2021-02-15'),
@@ -133,6 +133,6 @@ START TRANSACTION;
                         (21, 1900, '2022-01-01', '2023-01-01'),
                         (22, 1800, '2022-01-01', '2023-01-01'),
                         (23, 2000, '2022-01-01', '2023-01-01'),
-                        (24, 1700, '2022-01-01', '2023-01-01'),;
+                        (24, 1700, '2022-01-01', '2023-01-01');
 
 COMMIT;
