@@ -1,4 +1,4 @@
-USE SoftwareFactory;
+USE bd_SoftwareFactory;
 SELECT 'Vaciando Tablas' AS 'Estado';
 SET FOREIGN_KEY_CHECKS=0;
 	TRUNCATE TABLE Tarea;

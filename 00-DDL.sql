@@ -1,6 +1,6 @@
-DROP DATABASE IF EXISTS SoftwareFactory;
-CREATE DATABASE SoftwareFactory CHARACTER SET UTF8;
-USE SoftwareFactory;
+DROP DATABASE IF EXISTS bd_SoftwareFactory;
+CREATE DATABASE bd_SoftwareFactory CHARACTER SET UTF8;
+USE bd_SoftwareFactory;
 SELECT 'Creado Tablas' AS 'Estado';
 CREATE TABLE Cliente(
 	cuit INT NOT NULL,
