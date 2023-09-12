@@ -1,4 +1,4 @@
-USE SoftwareFactory;
+USE bd_SoftwareFactory;
 SELECT 'Vaciando Tablas' AS 'Estado';
 SET FOREIGN_KEY_CHECKS=0;
 	TRUNCATE TABLE Tarea;
@@ -16,8 +16,7 @@ START TRANSACTION;
     INSERT INTO Cliente (cuit, razonSocial)
         VALUES          (100, 'Unicornio Azul'),
                         (200, 'Yellow Monkey'),
-                        (300, 'Tartaruga Vermelha'),
-                        (400, 'Hyacinthinum Draconis');
+                        (300, 'Tartaruga Vermelha');
 
     INSERT INTO Empleado    (cuil, nombre, apellido, contratacion)
         VALUES              (1000, 'Lucas', 'Medina', '2015-08-25'),
@@ -39,8 +38,7 @@ START TRANSACTION;
                             (4, 'HTML', 8000),
                             (5, 'GIT', 5000),
                             (6, 'Desarrollador MySQL', 8000),
-                            (7, 'DBA MySQL', 14000),
-                            (8, 'Python', 14000);
+                            (7, 'DBA MySQL', 14000);
 
     INSERT INTO Experiencia (cuil, idTecnologia, calificacion)
         VALUES              (1000, 1, 2),
