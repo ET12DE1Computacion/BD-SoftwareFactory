@@ -1,74 +1,13 @@
-# TP Pokemon - WHERE: LIKE & BETWEEN
+## Software Factory - Guía WHERE: LIKE & BETWEEN
 
-1) Mostrar `apodo` de los pokémon cuyo `apodo` tenga al menos 2 letras `‘i’`. Ordenar por `apodo` de menor a mayor.
+1. Mostrar nombre y costo base de las tecnologías cuyo costo se encuentre entre $8.000 y $10.000 (topes incluidos). Ordenar por costo de menor a mayor y luego por nombre de menor a mayor.
 
-<details>
-    <summary>Salida</summary>
+1. Mostrar nombre y apellido de los empleados que tengan alguna `'L'` en su nombre o cuyo apellido tenga dos letras `'A'`.
 
-| apodo    |
-| :---:    |
-| Chikito  |
-| Chispita |
+1. Traer todos los campos de Proyecto cuyo presupuesto se encuentre entre $250.00 y $500.000 (límites no incluidos). Ordenar por presupuesto de mayor a menor.
 
-**2 filas**
-</details>
+1. Traer CUIL y fecha de fin de las tareas del empleado con CUIL igual a 1600 y cuya tarea de fin sea entre `'2020-07-01'` y `'2020-08-31'`. Ordenar por fecha fin de menor a mayor.
 
-2) Mostrar `nombre` y `dinero` de los entrenadores que tengan entre 10 mil y 15 mil (topes incluidos). Ordenar por `dinero` de mayor a menor y luego por nombre de mayor a menor.
-
-<details>
-    <summary>Salida</summary>
-
-| nombre            | dinero |
-| :---:             | :---:  |
-| magalirodriguez09 | 15000  |
-| recalDER          | 10000  |
-| luchoxx87         | 10000  |
-| ...               | ...    |
-
-**5 filas**
-
-</details>
-
-3) Mostrar `apodo`, `nivel` y `idEntrenador` de los pokémon del entrenador con `idEntrenador` = 1 o de los pokemon con `nivel` mayor a 60. Ordenar por `idEntrenador` y luego por `nivel`, de menor a mayor.
-
-<details>
-    <summary>Salida</summary>
-
-| apodo  | nivel  | idEntrenador |
-| :---:  | :---:  | :---:        |
-| _NULL_ | 44     | 1            |
-| _NULL_ | 62     | 1            |
-| _NULL_ | 63     | 1            |
-| ...    | ...    | ...          |
-
-**21 filas**
-</details>
-
-4) Mostrar `apodo` y `nivel` de los pokémon con `nivel` entre 60 y 100 (topes NO incluidos). Ordenar por `nivel` y `apodos`, de menor a mayor.
-
-<details>
-    <summary>Salida</summary>
-
-| apodo  | nivel  |
-| :---:  | :---:  |
-| Koki   | 62     |
-| _NULL_ | 63     |
-| _NULL_ | 70     |
-| ...    | ...    |
-
-**19 filas**
-</details>
-
-5) Mostrar `nombre`, `precioVenta` y `precioCompra` de los objetos que terminen con la palabra `'ball'` o empiecen con la palabra `'Piedra'`, siempre y cuando su `precioCompra` se encuentre entre 500 y 2000 (topes incluidos). Ordenar por `nombre` ascendente y los encabezados de las columnas tienen que tener espacio si lo requiere.
-
-<details>
-    <summary>Salida</summary>
-
-| nombre     | precio de venta  | precio de compra |
-| :---:      | :---:            | :---:            |
-| Super Ball | 300              | 600                 |
-
-**1 fila**
-</details>
+1. Mostrar todo de la experiencia de los empleados con CUIL 1000 y 1200 siempre y cuando su calificación sea mayor a 4. Ordenar por cuil de menor a mayor y luego por calificación de mayor a menor.
 
 [<< VOLVER](../04%20BD/README.md)
