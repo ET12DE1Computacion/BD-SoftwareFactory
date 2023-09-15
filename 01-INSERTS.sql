@@ -32,7 +32,7 @@ START TRANSACTION;
                             (2000, 'Hernan', 'Vazquez', '2022-10-06');
 
     INSERT INTO Tecnologia  (idTecnologia, tecnologia, costoBase)
-        VALUES              (1,'C#', 15000),
+        VALUES              (1, 'C#', 15000),
                             (2, 'React', 10000),
                             (3, 'Java', 15000),
                             (4, 'HTML', 8000),
@@ -70,22 +70,22 @@ START TRANSACTION;
                             (1600, 7, 6),
                             (1700, 5, 4),
                             (1700, 6, 9),
-                            (1700, 8, 8),
+                            (1700, 7, 8),
                             (1800, 5, 4),
                             (1800, 6, 8),
-                            (1800, 8, 9),
+                            (1800, 7, 9),
                             (1900, 5, 4),
                             (1900, 6, 8),
-                            (1900, 8, 8),
+                            (1900, 7, 8),
                             (2000, 5, 4),
                             (2000, 6, 8),
-                            (2000, 8, 8);
+                            (2000, 7, 8);
 
     INSERT INTO Proyecto    (idProyecto, cuit, descripcion, presupuesto, inicio, fin)
         VALUES              (10, 100, 'Canino APP', 150000, '2020-01-01', '2021-02-15'),
                             (20, 200, 'StockAr', 250000, '2020-01-01', '2021-01-01'),
                             (30, 300, 'Centro Medico', 450000, '2021-09-01', NULL),
-                            (40, 400, 'DnD Helper', 200000,'2022-09-30',NULL);
+                            (40, 100, 'DnD Helper', 200000,'2022-09-30',NULL);
 
     INSERT INTO Requerimiento   (idRequerimiento, idProyecto, idTecnologia, descripcion, complejidad)
         VALUES                  (1, 10, 1, 'Programación BackEnd', 6),

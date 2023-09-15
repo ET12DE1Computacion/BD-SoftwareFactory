@@ -4,7 +4,7 @@
 
 1. Mostrar la cantidad de requerimientos que hay con `idProyecto = 10`. Mostrar siempre y cuando su complejidad sea menor a 5 y la descripción del requerimiento tenga al menos 16 letras.
 
-1. Mostrar idTarea y cantidad de días de duración de cada una (fin - inicio). Ordenar de menor a mayor por días de duración.
+1. Mostrar idRequerimietno, cuil y cantidad de días de duración (`fin - inicio`) de cada Tarea. Ordenar de menor a mayor por días de duración.
 
 1. Mostrar cuil, calificación y nombre de la tecnología de los empleados contratados en el año 2015 con calificación mayor a 6 y con costo base de tecnología mayor o igual a $8.000. El encabezado de cuil debe decir `'Cuil Empleado'` y se tiene que mostrar ordenado por CUIL de menor a mayor, calificación de mayor a menor y costo base de menor a mayor.
 
