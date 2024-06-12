@@ -1,4 +1,4 @@
-## Software Factory - Guía Group By y Having
+## Software Factory - Guía Triggers
 
 1. Antes de hacer un Insert en Tarea, si la calificación del empleado es menor a la complejidad del requerimiento no se tiene que permitir el Insert y se tiene que mostrar la leyenda `"Calificación insuficiente"`.
 1. Realizar un trigger para que al ingresar un usuario, le asigne por defecto experiencia en todas las tecnologías disponibles con calificación igual a _CERO_.
