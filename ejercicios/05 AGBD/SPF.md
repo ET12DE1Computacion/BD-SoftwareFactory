@@ -22,6 +22,6 @@
   | :---:               |
   | 14                  |
   
-4) 
+4) Realizar la función `porcentajeDominio` que reciba por parámetro _undIdTecnologia_ y _un nivel_; la función tiene que devolver el **porcentaje** de empleados que domina esa tecnología con al menos el nivel el nivel solicitado.
 
 [<< VOLVER](../05%20AGBD/README.md)
