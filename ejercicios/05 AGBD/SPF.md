@@ -22,7 +22,7 @@
   | :---:               |
   | 14                  |
   
-4) Realizar la función `porcentajeDominio` que reciba por parámetro _undIdTecnologia_ y _un nivel_; la función tiene que devolver el **porcentaje** de empleados que domina esa tecnología con al menos el nivel el nivel solicitado. El calculo es: **cantidad total de empleados** / **cantidad de empleados que dominan ese nivel de la tecnologia** * **100**
+4) Realizar la función `porcentajeDominio` que reciba por parámetro _undIdTecnologia_ y _un nivel_; la función tiene que devolver el **porcentaje** de empleados que domina esa tecnología con al menos el nivel el nivel solicitado. El calculo es: **cantidad de empleados que dominan ese nivel de la tecnologia** / **cantidad total de empleados** * **100**
 
 
   ```sql
