@@ -22,6 +22,19 @@
   | :---:               |
   | 14                  |
   
-4) Realizar la función `porcentajeDominio` que reciba por parámetro _undIdTecnologia_ y _un nivel_; la función tiene que devolver el **porcentaje** de empleados que domina esa tecnología con al menos el nivel el nivel solicitado.
+4) Realizar la función `porcentajeDominio` que reciba por parámetro _undIdTecnologia_ y _un nivel_; la función tiene que devolver el **porcentaje** de empleados que domina esa tecnología con al menos el nivel el nivel solicitado. El calculo es: **cantidad total de empleados** / **cantidad de empleados que dominan ese nivel de la tecnologia** * **100**
+
+
+  ```sql
+  SELECT  porcentajeDominio(idTecnologia, 4)
+  FROM    tecnologia
+  WHERE   idTecnologia <= 3
+  ```
+  | porcentajeDominio(idTecnologia, 4)  |
+  | :---:                               |
+  | 54.5455                             |
+  | 90.0901                             |
+  | 90.0901                             |
+
 
 [<< VOLVER](../05%20AGBD/README.md)
